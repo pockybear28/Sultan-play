@@ -27,13 +27,13 @@ que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "@Lunatic0de")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "@suppmusicquotes")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/c78223f3ca2a9293dae88.jpg")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
