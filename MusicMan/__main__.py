@@ -18,8 +18,8 @@
 import requests
 from pyrogram import Client as Bot
 
-from Sultan-play.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
-from Sultan-play.services.callsmusic import run
+from MusicMan.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from MusicMan.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
@@ -31,7 +31,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="Sultan-play.modules"),
+    plugins=dict(root="MusicMan.modules"),
 )
 
 bot.start()
