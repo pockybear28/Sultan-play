@@ -2,7 +2,7 @@
 
 ### A bot that can play music on telegram group's voice call
 #### BASED ON [CALLSMUSIC](https://github.com/callsmusic/callsmusic)
-# Available on telegram as @sultanmusicbot
+# Available on telegram as @sultanmusikbot
 
 <h2> Whats new 🔥 </h2>
 
