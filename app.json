@@ -1,8 +1,8 @@
 {
-  "name": "MusicMan",
+  "name": "sultanMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/mrismanaziz/Music-Man",
+  "repository": "https://github.com/pockybear28/Sultan-play",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -43,7 +43,7 @@
     "DURATION_LIMIT": {
       "description": "Batas durasi audio maksimal untuk download (minutes).",
       "required": true,
-      "value": "30"
+      "value": "60"
     }
   }
 }
