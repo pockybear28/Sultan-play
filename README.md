@@ -1,4 +1,4 @@
-<h1 align="centre">🎵 BOT MUSIC MAN 🎵</h1>
+<h1 align="centre">🎵 BOT 𝐒𝐔𝐋𝐓𝐀𝐍 𝐌𝐔𝐒𝐈𝐂 🎵</h1>
 
 ### A bot that can play music on telegram group's voice call
 #### BASED ON [CALLSMUSIC](https://github.com/callsmusic/callsmusic)
@@ -68,3 +68,4 @@ DaisyXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/
 - [ImJanindu](https://github.com/ImJanindu): 
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [Original Repo owners](https://github.com/suprojects/CallsMusic)
+- [Sultan](https://github.com/pockybear28/Sultan-play)
