@@ -26,16 +26,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>┗┓ Haii {message.from_user.first_name} My Name is 𝐒𝐔𝐋𝐓𝐀𝐍 𝐌𝐔𝐒𝐈𝐂 ┏┛\n
+        f"""Haii {message.from_user.first_name} Saya Adalah 𝐒𝐔𝐋𝐓𝐀𝐍 𝐌𝐔𝐒𝐈𝐂 
 Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :
-┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
-┗━━━━━━━━━━━━━━
-❃ Managed With ☕️ By : [Sultan](https://t.me/suppnigga)
-━━━━━━━━━━━━━━━
+
+• Memutar Musik.
+• Mendownload Lagu.
+• Mencari Lagu Yang ingin di Putar atau di Download.
+
+Managed By : [Sultan](https://t.me/suppnigga)
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
 
@@ -46,10 +45,13 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/suppmusicquotes")
+                        "📜 Cara Menggunakan BOT 📜", url="https://telegra.ph/Cara-Penggunaan-Bot-Sultan-Music-06-06")
                   ],[
                     InlineKeyboardButton(
                         "Group Support", url="https://t.me/userbotmaker"
+                    ),
+                    InlinekeyboardButton(
+                        "Group Mainchat", url="https://t.me/RepublicOfCaliber"
                     ),
                     InlineKeyboardButton(
                         "Channel", url="https://t.me/suppmusicquotes"
@@ -94,7 +96,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/suppmusicquotes"
+                        "📜 Cara Menggunakan BOT 📜", url="https://telegra.ph/Cara-Penggunaan-Bot-Sultan-Music-06-06"
                     )
                 ]
             ]
