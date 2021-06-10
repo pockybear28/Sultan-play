@@ -32,7 +32,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 
 • Memutar Musik.
 • Mendownload Lagu.
-• Mencari Lagu Yang ingin di Putar atau di Download.
+• Mencari Lagu Yang ingin di Putar atau di Download dengan Mudah.
 
 Managed By : [Sultan](https://t.me/suppnigga)
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
