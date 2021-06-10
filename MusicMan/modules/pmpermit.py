@@ -25,6 +25,6 @@ from MusicMan.services.callsmusic.callsmusic import client as USER
 async def pmPermit(client: USER, message: Message):
     await USER.send_message(
         message.chat.id,
-        "Halo, Saya adalah **Layanan Asistant Sultan Music.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   - Tutorial Cara Menggunakan bot Lihat di @suppmusicquotes \n\n 👉 **KIRIM LINK INVITE ATAU USERNAME GRUP, JIKA ASSISTANT TIDAK DAPAT BERGABUNG DENGAN GRUP ANDA.**\n\n ⛑ **Group Support :** @userbotmaker - **Owner** @suppnigga\n\n",
+        "Halo, Saya adalah **Layanan Asistant Sultan Music.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   - Jangan lupq subscribe channel ini @suppmusicquotes \n\n 👉 **KIRIM LINK INVITE ATAU USERNAME GRUP, JIKA ASSISTANT TIDAK DAPAT BERGABUNG DENGAN GRUP ANDA.**\n\n ⛑ **Group Support :** @userbotmaker - **GroupChat :** @RepublicOfCaliber - **Owner** @suppnigga\n\n",
     )
     return
