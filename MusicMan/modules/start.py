@@ -29,7 +29,7 @@ async def start_(client: Client, message: Message):
         f"""Haii {message.from_user.first_name} Saya Adalah 𝐒𝐔𝐋𝐓𝐀𝐍 𝐌𝐔𝐒𝐈𝐂 
 Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :
-
+• Mengupload lagu.
 • Memutar Musik.
 • Mendownload Lagu.
 • Mencari Lagu Yang ingin di Putar atau di Download dengan Mudah.
@@ -49,9 +49,6 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                   ],[
                     InlineKeyboardButton(
                         "Group Support", url="https://t.me/userbotmaker"
-                    ),
-                    InlinekeyboardButton(
-                        "Group Mainchat", url="https://t.me/RepublicOfCaliber"
                     ),
                     InlineKeyboardButton(
                         "Channel", url="https://t.me/suppmusicquotes"
@@ -119,7 +116,10 @@ async def reload(client: Client, message: Message):
                     ),
                     InlineKeyboardButton(
                         "Owner", url="https://t.me/suppnigga"
-                    )
+                    ),
+                    InlineKeyboardButton(
+                        "Group MainChat", url="https://t.me/RepublicOfCaliber"
+                    ),
                 ]
             ]
         )
